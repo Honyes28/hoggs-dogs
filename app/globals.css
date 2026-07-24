@@ -187,8 +187,14 @@ h1 em {
   text-transform: uppercase;
 }
 
-.location-strip strong {
+.location-strip a {
   color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.location-strip a:hover {
+  color: white;
 }
 
 .menu-section {
@@ -352,6 +358,22 @@ h1 em {
   color: #e3dacb;
   font-size: 1.05rem;
   line-height: 1.8;
+}
+
+.facebook-button {
+  background: var(--gold);
+  color: var(--ink);
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  margin-top: 8px;
+  padding: 14px 18px;
+  text-transform: uppercase;
+}
+
+.facebook-button:hover {
+  background: white;
 }
 
 .callout {

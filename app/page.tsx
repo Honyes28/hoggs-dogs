@@ -21,6 +21,13 @@ export default function Home() {
         <nav aria-label="Main navigation">
           <a href="#menu">Menu</a>
           <a href="#about">About</a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61592294308065"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Today&apos;s location
+          </a>
           <a className="phone-pill" href="tel:+17573735348">
             757-373-5348
           </a>
@@ -58,7 +65,13 @@ export default function Home() {
 
       <section className="location-strip" aria-label="Service area">
         <span>Serving Elizabeth City, NC and surrounding areas</span>
-        <strong>Hot dogs from $4</strong>
+        <a
+          href="https://www.facebook.com/profile.php?id=61592294308065"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Find us today on Facebook
+        </a>
       </section>
 
       <section className="menu-section" id="menu">
@@ -113,6 +126,14 @@ export default function Home() {
             from our family food truck. Find us around Elizabeth City and the
             surrounding area.
           </p>
+          <a
+            className="facebook-button"
+            href="https://www.facebook.com/profile.php?id=61592294308065"
+            target="_blank"
+            rel="noreferrer"
+          >
+            See today&apos;s location on Facebook
+          </a>
           <div className="callout">
             <span>Booking or event questions?</span>
             <a href="tel:+17573735348">Call 757-373-5348</a>
