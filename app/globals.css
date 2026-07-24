@@ -137,12 +137,14 @@ h1 em {
 
 .button {
   border: 2px solid var(--ink);
+  box-shadow: 5px 5px 0 var(--gold);
   font-size: 0.78rem;
   font-weight: 900;
   letter-spacing: 0.09em;
   padding: 15px 21px;
   text-transform: uppercase;
-  transition: background 150ms ease, color 150ms ease;
+  transition: background 150ms ease, box-shadow 150ms ease, color 150ms ease,
+    transform 150ms ease;
 }
 
 .button-primary {
@@ -155,11 +157,21 @@ h1 em {
   background: transparent;
 }
 
+.button-facebook {
+  background: var(--ink);
+  color: white;
+}
+
 .button:hover,
 .phone-pill:hover {
   background: var(--gold);
   border-color: var(--ink);
   color: var(--ink);
+}
+
+.button:hover {
+  box-shadow: 2px 2px 0 var(--gold);
+  transform: translate(3px, 3px);
 }
 
 .hero-photo {

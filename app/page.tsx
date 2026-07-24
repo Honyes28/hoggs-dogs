@@ -53,6 +53,14 @@ export default function Home() {
             <a className="button button-secondary" href="tel:+17573735348">
               Call the truck
             </a>
+            <a
+              className="button button-facebook"
+              href="https://www.facebook.com/profile.php?id=61592294308065"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Find us today
+            </a>
           </div>
         </div>
         <div className="hero-photo">
