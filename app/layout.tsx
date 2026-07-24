@@ -15,9 +15,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const origin = `${protocol}://${host}`;
 
   return {
-    title: "Hoggs Dogs | Norfolk-Style Hot Dogs",
+    title: "Hoggs Dogs | Elizabeth City Hot Dog Food Truck",
     description:
-      "Classic hot dogs, chilli, Italian hots, and more from Norfolk's family-run Hoggs Dogs food truck.",
+      "Classic hot dogs, chilli, Italian hots and more from the family-run Hoggs Dogs food truck serving Elizabeth City, North Carolina.",
     icons: {
       icon: "/assets/hoggs-dogs-logo.png",
       shortcut: "/assets/hoggs-dogs-logo.png",
@@ -25,11 +25,11 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: "Hoggs Dogs | Good Dogs. Great Times.",
       description:
-        "Classic hot dogs, hearty chilli, and big Norfolk flavor—served fresh from our family-run food truck.",
+        "Classic hot dogs and big flavor from our family-run food truck serving Elizabeth City, North Carolina.",
       type: "website",
       images: [
         {
-          url: new URL("/og.png", origin).toString(),
+          url: new URL("/og-v2.png", origin).toString(),
           width: 1200,
           height: 630,
           alt: "Hoggs Dogs food truck",
@@ -38,7 +38,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      images: [new URL("/og.png", origin).toString()],
+      images: [new URL("/og-v2.png", origin).toString()],
     },
   };
 }
