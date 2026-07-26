@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         <div className="hero-photo">
           <img
-            src="/assets/hoggs-dogs-truck-side.png"
+            src="/assets/hoggs-dogs-truck-side.jpg"
             alt="The Hoggs Dogs food truck with its serving window open"
           />
         </div>

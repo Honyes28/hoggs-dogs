@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: new URL("/og-v2.png", origin).toString(),
+          url: new URL("/og-v2.jpg", origin).toString(),
           width: 1200,
           height: 630,
           alt: "Hoggs Dogs food truck",
@@ -38,7 +38,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      images: [new URL("/og-v2.png", origin).toString()],
+      images: [new URL("/og-v2.jpg", origin).toString()],
     },
   };
 }
