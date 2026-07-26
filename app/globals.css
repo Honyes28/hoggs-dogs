@@ -345,23 +345,34 @@ h1 em {
 
 .toppings {
   align-items: center;
+  background: var(--ink);
+  border: 3px solid var(--gold);
+  box-shadow: 6px 6px 0 var(--red);
+  color: white;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 20px;
-  margin: 30px auto 0;
+  gap: 12px;
+  margin: 38px auto 0;
   max-width: 1120px;
+  padding: 20px 22px;
 }
 
 .toppings strong {
-  font-size: 0.76rem;
+  color: var(--gold);
+  font-size: 0.82rem;
   letter-spacing: 0.1em;
   margin-right: auto;
   text-transform: uppercase;
 }
 
 .toppings span {
-  color: var(--muted);
-  font-size: 0.82rem;
+  background: var(--gold);
+  border: 2px solid var(--gold);
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 850;
+  padding: 7px 10px;
+  text-transform: uppercase;
 }
 
 .about-section {
