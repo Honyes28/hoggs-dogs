@@ -276,20 +276,48 @@ h1 em {
 
 .combo-card {
   align-items: center;
-  background: var(--gold);
-  border: 2px solid var(--ink);
+  background: var(--red);
+  border: 4px solid var(--ink);
+  box-shadow: 10px 10px 0 var(--gold);
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
   padding: 38px 28px;
+  position: relative;
   text-align: center;
+  transform: rotate(1deg);
+}
+
+.combo-card::before,
+.combo-card::after {
+  background: var(--gold);
+  content: "";
+  height: 18px;
+  position: absolute;
+  transform: rotate(-35deg);
+  width: 90px;
+}
+
+.combo-card::before {
+  left: -28px;
+  top: 8px;
+}
+
+.combo-card::after {
+  bottom: 8px;
+  right: -28px;
 }
 
 .combo-card > p {
-  font-size: 0.7rem;
+  background: var(--gold);
+  color: var(--ink);
+  font-size: 0.76rem;
   font-weight: 900;
   letter-spacing: 0.12em;
   margin-bottom: 22px;
+  padding: 8px 12px;
   text-transform: uppercase;
 }
 
@@ -302,15 +330,17 @@ h1 em {
 }
 
 .combo-card span {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  font-weight: 750;
 }
 
 .combo-card strong {
-  color: var(--red);
+  color: var(--gold);
   font-family: Impact, sans-serif;
-  font-size: 4.4rem;
+  font-size: 4.8rem;
   line-height: 1;
   margin-top: 22px;
+  text-shadow: 3px 3px 0 var(--ink);
 }
 
 .toppings {

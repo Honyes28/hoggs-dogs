@@ -7,7 +7,7 @@ const menu = [
   { name: "All Beef Dog", note: "A classic, done right", price: "$4.00" },
   { name: "Italian Hots", note: "Hot sausage", price: "$5.00" },
   { name: "Chips", note: "The crispy sidekick", price: "$1.50" },
-  { name: "Bottled Sodas", note: "Ice cold", price: "$1.75" },
+  { name: "Canned Sodas", note: "Ice cold", price: "$1.50" },
   { name: "Bottled Water", note: "Cold and refreshing", price: "$1.00" },
 ];
 
@@ -103,10 +103,10 @@ export default function Home() {
           </div>
 
           <aside className="combo-card">
-            <p>Combo special</p>
+            <p>Best value · Combo special</p>
             <h3>2 Hot Dogs</h3>
-            <span>Chips + bottled soda</span>
-            <strong>$11.00</strong>
+            <span>Chips + canned soda</span>
+            <strong>$10.00</strong>
           </aside>
         </div>
 
@@ -116,6 +116,8 @@ export default function Home() {
           <span>Onions</span>
           <span>Mustard</span>
           <span>Ketchup</span>
+          <span>Relish</span>
+          <span>Sabrett Onions</span>
         </div>
       </section>
 
